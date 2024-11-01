@@ -83,7 +83,7 @@ class HomeDesktop extends StatelessWidget {
                   ),
                   Space.y(3.w)!,
                   ColorChageButton(
-                    text: 'See Work',
+                    text: 'Resume',
                     onTap: () {
                       html.window.open(resume, "pdf");
                     },
